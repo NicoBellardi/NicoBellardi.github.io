@@ -1,0 +1,635 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    display: inline-block;
+}
+
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+}
+
+body {
+    background: #FFFFFA;
+}
+
+     
+.descripcion {
+    font-family: 'Roboto Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 20;
+    padding: 0;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+  
+.header {
+    background-color: #33b5e5;
+    color: #ffffff;
+    padding: 15px;
+}
+  
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+
+.experiencia-cancelar {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out 0s;
+    display: block;
+    padding: 0px 12px;
+    font-size: 16px;
+    height: auto;
+    font-family: "Hind Vadodara", sans-serif;
+    color: #33b5e5;
+    background-color: transparent;
+    text-decoration: none;
+    outline: transparent solid 1px;
+    width: 100% !important;
+    text-align: center;
+    line-height: 48px;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.experiencia-guardar {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid rgb(233, 0, 102);
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out 0s;
+    display: block;
+    padding: 0px 12px;
+    font-size: 16px;
+    height: auto;
+    width: 100% !important;
+    text-align: center;
+    line-height: 48px;
+    max-width: 200px;
+    cursor: pointer;
+    font-family: "Hind Vadodara", sans-serif;
+    color: white;
+    border-color: #33b5e5;
+    background-color: #33b5e5;
+    text-decoration: none;
+    outline: transparent solid 1px;
+}
+
+#detalle {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 810px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: all 150ms ease-in-out 0s;
+    border: 1px solid rgb(195, 194, 200);
+    border-radius: 8px;
+    background-color: rgba(0, 0, 24, 0.04);
+}
+
+.formulario {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: all 150ms ease-in-out 0s;
+    border: 1px solid rgb(195, 194, 200);
+    border-radius: 8px;
+    background-color: rgba(0, 0, 24, 0.04);
+}
+
+.datosgenerales {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 24, 0.84);
+    margin-bottom: 4px;
+}
+
+.A {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    margin: -8px 0px;
+}
+
+.B {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.C {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;  
+}
+
+.D {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    scroll-behavior: smooth;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.E {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    margin: 8px 0px;
+}
+
+.F {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.validacion {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -0.5em;
+    color: red;
+}
+
+.manual {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    pointer-events: auto;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 46px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "Hind Vadodara", sans-serif;
+    color: rgba(0, 0, 24, 0.84);
+}
+
+.cuadro-formulario {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.75rem;
+    padding: 0px 0px;
+    flex: 1 1 auto;
+}
+
+.subcuadro-formulario {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    padding: 0px 25px;
+}
+
+.textarea {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    pointer-events: auto;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    border: 0px;
+    margin: 0px 0px 20px;
+    background-color: transparent;
+    width: 1000px;
+    resize: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Hind Vadodara", sans-serif;
+    min-height: 126px;
+    padding: 12px 0px;
+    color: rgba(0, 0, 24, 0.84);
+    height: 0px;
+}
+
+.maxletters {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    color: rgba(0, 0, 24, 0.84);
+    user-select: none;
+}
+
+.HH {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    scroll-behavior: smooth;
+    flex-basis: 0px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.botones {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 50px;
+    margin: 50px;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 42px;
+    display: flex;
+}
+
+.botones2 {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    width: 100%;
+    margin-left: -16px;
+    z-index: 11;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+    display: none;
+}
+
+
+
+.presente {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 100%;
+    transition: all 150ms ease-in-out 0s;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    padding: 0px;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: start;
+}
+
+
+.paises {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: auto;
+    line-height: 1.75rem;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.009375em;
+    cursor: default;
+    color: rgb(0, 0, 0) !important;
+    -webkit-box-align: left;
+    align-items: left;
+    display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    height: 46px;
+}
+
+.photo {
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(33, 33, 33);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 100%;
+    width: 104px;
+    height: 104px;
+}
+
+.contenido {
+    width: 500px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.contenido p {
+    margin-bottom: 1em;
+}
+
+.ir-arriba {
+    display: inline-block;
+    padding: 10px;
+    background: #33b5e5;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 100%;
+    bottom: 12px;
+    right: 0px;
+}
+
+#NicoBellardi:hover {opacity: 0.7;}

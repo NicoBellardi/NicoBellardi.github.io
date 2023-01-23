@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final | CV</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
+    <link rel="icon" type="image/x-icon" href="https://academy.profesional.ticmas.io/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="JS/Funcionalidad.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <span class="ir-arriba icon-arrow-up"></span>
+    <div class="header" style="text-align: right;">
+        <img src="https://imgbum.jobscdn.com/portal/img/postulantes/1/static/cvOriginalPic_46086280_bum_va15eaf57.jpg" size="104" class="photo" style="float: left" id="NicoBellardi" />    
+        <h1>CURRICULIM VITAE | ENTREGA</h1>
+      </div>      
+      <div class="row">
+        <div class="col-3 menu">
+          <ul>
+            <li><a href="#Datos" style="color: aliceblue">Datos Personales</a></li>
+            <li><a href="#Experiencia" style="color: aliceblue;">Experiencia Laboral</a></li>
+            <li><a href="#Nivel" style="color: aliceblue;">Nivel Academico</a></li>
+            <li><a href="#Cursos" style="color: aliceblue;">Cursos Realizados</a></li>
+          </ul>
+        </div>    
+        <div class="col-9">
+            <a name="Datos"></a>
+            <h2>Datos Personales</h2>            
+           <div class="cuadro-formulario">
+               <div class="subcuadro-formulario">
+                   <form>
+                       <div class="A">
+                           <div class="B">
+                               <div class="C">
+                                   <div class="D">
+                                       <div class="E">
+                                           <div class="F">
+                                           <div for="nombre" class="datosgenerales">
+                                               Nombre/s 
+                                               <sup class="validacion">*</sup>
+                                               </div>
+                                                   <div label="Nombre" maxlength="70" class="formulario">
+                                                   <input name="nombre" id="manual" placeholder="Ingresá tu nombre" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                               </div>                         
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="D">
+                                   <div class="E">
+                                       <div class="F">
+                                           <div for="apellido" class="datosgenerales">
+                                               Apellido/s 
+                                               <sup class="validacion">*</sup>
+                                               </div>
+                                                   <div label="Apellido" maxlength="70" class="formulario">
+                                                   <input name="apellido" id="manual" placeholder="Ingresá tu apellido" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                               </div>
+                                       </div>
+                                   </div>
+                               </div>
+                       <div class="D">
+                           <div class="E">
+                               <div class="F">
+                                   <div for="telefono" class="datosgenerales">
+                                       Teléfono
+                                       <sup class="validacion">*</sup>
+                                       </div>
+                                           <div label="telefono" maxlength="70" class="formulario">
+                                           <input name="telefono" id="manual" placeholder="Ingresá tu télefono" type="tel" autocorrect="off" autocapitalize="off" autocomplete="off" label="puesto" maxlength="70" class="manual" value="">
+                                       </div>                               
+                               </div>
+                           </div>
+                       </div>
+               <div class="D">
+                   <div class="E">
+                       <div class="F">
+                           <div for='email' class="datosgenerales"> 
+                               Email
+                               <sup class="validacion">*</sup>
+                               </div>
+                               <div label="email" maxlength="70" class="formulario">
+                                   <input name="Email" id="manual" placeholder="Ingresá tu email" type="email" autocorrect="off" autocapitalize="off" autocomplete="off" label="experiencia" maxlength="70" class="manual" value="">
+                               </div>           
+                       </div>
+                   </div>
+               </div>
+               <div class="D">
+                   <div class="E">
+                       <div class="F">
+                           <div for='nacionalidad' class="datosgenerales"> 
+                               Nacionalidad
+                               <sup class="validacion">*</sup>
+                               </div>
+                               <div label="Nacionalidad" maxlength="70" class="formulario">
+                                   <select aria-invalid="false" id="nacionalidad" type="hidden" name="location.country" class="paises" style=>
+                                    <option label="Elije tu país" value="ETP">Elije tu país</option>
+                                    <option label="Anguila" value="AI">Anguila</option>
+                                    <option label="Antigua y Barbuda" value="AG">Antigua y Barbuda</option>
+                                    <option label="Antillas Neerlandesas" value="AN">Antillas Neerlandesas</option>
+                                    <option label="Antártida" value="AQ">Antártida</option>
+                                    <option label="Arabia Saudita" value="SA">Arabia Saudita</option>
+                                    <option label="Argelia" value="DZ">Argelia</option>
+                                    <option label="Argentina" value="AR">Argentina</option>
+                                    <option label="Armenia" value="AM">Armenia</option>
+                                    <option label="Aruba" value="AW">Aruba</option>
+                                    <option label="Australia" value="AU">Australia</option>
+                                    <option label="Austria" value="AT">Austria</option>
+                                   </select>
+                               </div>
+                   </div>
+               </div>
+               </div>
+                   <div class="D">
+                       <div class="E">
+                           <div class="F">
+                               <div for='provincia' class="datosgenerales"> 
+                                   Provincia
+                                   <sup class="validacion">*</sup>
+                               </div>
+                               <div label="Provincia" maxlength="70" class="formulario">
+                                   <input name="provincia" id="manual" placeholder="Ingresá provincia" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="subarea" maxlength="70" class="manual" value="">
+                               </div>                 
+                       </div>
+                   </div>
+               </div>
+               <div class="D">
+                   <div class="E">
+                       <div class="F">
+                           <div for='localidad' class="datosgenerales"> 
+                               Localidad
+                               <sup class="validacion">*</sup>
+                               </div>
+                               <div label="Localidad" maxlength="70" class="formulario">
+                                   <input name="localidad" id="manual" placeholder="Ingresá localidad" type="email" autocorrect="off" autocapitalize="off" autocomplete="off" label="experiencia" maxlength="70" class="manual" value="">
+                               </div>                  
+                       </div>
+                   </div>
+               </div>
+               <div class="D">
+                   <div class="E">
+                       <div class="F">
+                           <div for='domicilio' class="datosgenerales"> 
+                               Domicilio
+                               <sup class="validacion">*</sup>
+                               </div>
+                               <div label="Domicilio" maxlength="70" class="formulario">
+                                   <input name="domicilio" id="manual" placeholder="Ingresá tu domicilio" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Area" maxlength="70" class="manual" value="">
+                               </div>                     
+                            </div>
+                        </div>
+                    </div>
+                   <div class="D">
+                       <div class="E">
+                           <div class="F">
+                               <div for='codigo-postal' class="datosgenerales"> 
+                                   Código Postal
+                                   <sup class="validacion">*</sup>
+                               </div>
+                               <div label="Codigo Postal" maxlength="70" class="formulario">
+                                   <input name="codigo-postal" id="manual" placeholder="Ingresá código postal" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="subarea" maxlength="70" class="manual" value="">
+                               </div>                         
+                            </div>
+                        </div>
+                   </div>
+               </div>
+            </div>
+            </div>
+                </div>
+                   <a name="Experiencia"></a>
+                   <h2>Experiencia Laboral</h2>            
+                   <div class="cuadro-formulario">
+                       <div class="subcuadro-formulario">
+                               <div class="A">
+                                   <div class="B">
+                                       <div class="C">
+                                           <div class="D">
+                                               <div class="E">
+                                                   <div class="F">
+                                                   <div for="empresa" class="datosgenerales">
+                                                       Empresa 
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Empresa" maxlength="70" class="formulario">
+                                                           <input name="empresa" id="manual" placeholder="Ingresá el nombre" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                                 
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="D">
+                                           <div class="E">
+                                               <div class="F">
+                                                   <div for="select-actividad" class="datosgenerales">
+                                                       Activdad de la empresa 
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Actividad de la empresa" maxlength="70" class="formulario">
+                                                           <input name="select-actividad" id="manual" placeholder="Ingresá actividad" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                                     
+                                               </div>
+                                           </div>
+                                       </div>
+                               <div class="D">
+                                   <div class="E">
+                                       <div class="F">
+                                           <div for="puesto" class="datosgenerales">
+                                               Puesto
+                                               <sup class="validacion">*</sup>
+                                               </div>
+                                                   <div label="Puesto" maxlength="70" class="formulario">
+                                                   <input name="puesto" id="manual" placeholder="Ingresá el puesto" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="puesto" maxlength="70" class="manual" value="">
+                                               </div>                                
+                                       </div>
+                                   </div>
+                               </div>
+                       <div class="D">
+                           <div class="E">
+                               <div class="F">
+                                   <div for='select-nivel' class="datosgenerales"> 
+                                       Nivel de Experiencia
+                                       <sup class="validacion">*</sup>
+                                       </div>
+                                       <div label="Nivel de Experiencia" maxlength="70" class="formulario">
+                                           <input name="select-nivel" id="manual" placeholder="Ingresá experiencia" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="experiencia" maxlength="70" class="manual" value="">
+                                       </div>                  
+                               </div>
+                           </div>
+                       </div>
+                       <div class="D">
+                           <div class="E">
+                               <div class="F">
+                                   <div for='select-area' class="datosgenerales"> 
+                                       Area del Puesto
+                                       <sup class="validacion">*</sup>
+                                       </div>
+                                       <div label="Area del puesto" maxlength="70" class="formulario">
+                                           <input name="select-area" id="manual" placeholder="Ingresá área" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Area" maxlength="70" class="manual" value="">
+                                       </div>               
+                                   </div>
+                                </div>
+                            </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-subarea' class="datosgenerales"> 
+                                           Subarea
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div label="Subarea" maxlength="70" class="formulario">
+                                           <input name="select-subarea" id="manual" placeholder="Ingresá subarea" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="subarea" maxlength="70" class="manual" value="">
+                                       </div>       
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha Ingreso
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha ingreso" class="formulario">
+                                           <input name="fecha ingreso" id="manual" type="date" label="fecha ingreso" class="manual" value="">
+                                       </div>             
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha de finalizacion
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha finalizacion" class="formulario">
+                                           <input name="fecha finalizacion" id="manual" type="date" label="fecha finalizacion" class="manual" value="">
+                                       </div>               
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="HH">
+                               <div class="E">
+                                   <div class="F">
+                                   <div for='detalle' class="datosgenerales">
+                                       Descripción de tareas asignadas
+                                       <sup class="validacion">*</sup>
+                                   </div>
+                                   <div label="Descripción de responsabilidades" class="formulario"> 
+                                    <label for="id_text" class="control-label"></label>
+                                    <label for="textarea"></label>            
+                                    <textarea class="textarea" maxlength="1000" placeholder="Escribí cuáles son tus tareas" style="height: 0px;" autocorrect="off" autocapitalize="off" autocomplete="off" label="Descripción de tareas asignadas"></textarea>
+                                </div>
+                                <span>Caracteres Restantes:</span> <span id="charNum"> </span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   </div>
+                </div>
+            </div>  
+        </div>
+           </div>
+           <a name="Nivel"></a> 
+           <h2>Nivel Académico</h2>            
+                   <div class="cuadro-formulario">
+                       <div class="subcuadro-formulario">
+                               <div class="A">
+                                   <div class="B">
+                                       <div class="C">
+                                           <div class="D">
+                                               <div class="E">
+                                                   <div class="F">
+                                                   <div for="institucion" class="datosgenerales">
+                                                       Institución
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Institución" maxlength="70" class="formulario">
+                                                           <input name="Institución" id="manual" placeholder="Ingresá la Institución" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                      
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="D">
+                                           <div class="E">
+                                               <div class="F">
+                                                   <div for="estado" class="datosgenerales">
+                                                       Estado 
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Estado" maxlength="70" class="formulario">
+                                                           <input name="estado" id="manual" placeholder="Ingresá estado" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                    
+                                               </div>
+                                           </div>
+                                       </div>
+                               <div class="D">
+                                   <div class="E">
+                                       <div class="F">
+                                           <div for="tipo-estudio" class="datosgenerales">
+                                               Tipo de Estudio
+                                               <sup class="validacion">*</sup>
+                                               </div>
+                                                   <div label="Tipo de Estudio" maxlength="70" class="formulario">
+                                                   <input name="tipo-estudio" id="manual" placeholder="Ingresá tipo de estudio" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="puesto" maxlength="70" class="manual" value="">
+                                               </div>              
+                                       </div>
+                                   </div>
+                               </div>
+                       <div class="D">
+                           <div class="E">
+                               <div class="F">
+                                   <div for='area-estudio' class="datosgenerales"> 
+                                       Area de Estudio
+                                       <sup class="validacion">*</sup>
+                                       </div>
+                                       <div label="Area de Estudio" maxlength="70" class="formulario">
+                                           <input name="area-estudio" id="manual" placeholder="Ingresá área de estudio" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="experiencia" maxlength="70" class="manual" value="">
+                                       </div>             
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha de Ingreso
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha de ingreso" class="formulario">
+                                           <input name="fecha ingreso" id="manual" type="date" label="fecha ingreso" class="manual" value="">
+                                       </div>              
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha de finalizacion
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha finalizacion" class="formulario">
+                                           <input name="fecha finalizacion" id="manual" type="date" label="fecha finalizacion" class="manual" value="">
+                                       </div>                    
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   </div>
+                </div>
+                </div>
+               <a name="Cursos"></a>
+               <h2>Cursos Realizados</h2>            
+                   <div class="cuadro-formulario">
+                       <div class="subcuadro-formulario">
+                               <div class="A">
+                                   <div class="B">
+                                       <div class="C">
+                                           <div class="D">
+                                               <div class="E">
+                                                   <div class="F">
+                                                   <div for="institucion" class="datosgenerales">
+                                                       Institución
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Institución" maxlength="70" class="formulario">
+                                                           <input name="Institución" id="manual" placeholder="Ingresá la Institución" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                    
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="D">
+                                           <div class="E">
+                                               <div class="F">
+                                                   <div for="estado" class="datosgenerales">
+                                                       Estado 
+                                                       <sup class="validacion">*</sup>
+                                                       </div>
+                                                           <div label="Estado" maxlength="70" class="formulario">
+                                                           <input name="estado" id="manual" placeholder="Ingresá estado" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="Empresa" maxlength="70" class="manual" value="">
+                                                       </div>                   
+                                               </div>
+                                           </div>
+                                       </div>
+                               <div class="D">
+                                   <div class="E">
+                                       <div class="F">
+                                           <div for="tipo-estudio" class="datosgenerales">
+                                               Tipo de Estudio
+                                               <sup class="validacion">*</sup>
+                                               </div>
+                                                   <div label="Tipo de Estudio" maxlength="70" class="formulario">
+                                                   <input name="tipo-estudio" id="manual" placeholder="Ingresá tipo de estudio" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="puesto" maxlength="70" class="manual" value="">
+                                               </div>
+                                       </div>
+                                   </div>
+                               </div>
+                       <div class="D">
+                           <div class="E">
+                               <div class="F">
+                                   <div for='area-estudio' class="datosgenerales"> 
+                                       Area de Estudio
+                                       <sup class="validacion">*</sup>
+                                       </div>
+                                       <div label="Area de Estudio" maxlength="70" class="formulario">
+                                           <input name="area-estudio" id="manual" placeholder="Ingresá área de estudio" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" label="experiencia" maxlength="70" class="manual" value="">
+                                       </div>
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha de Ingreso
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha de ingreso" class="formulario">
+                                           <input name="fecha ingreso" id="manual" type="date" label="fecha ingreso" class="manual" value="">
+                                       </div>       
+                               </div>
+                           </div>
+                       </div>
+                           <div class="D">
+                               <div class="E">
+                                   <div class="F">
+                                       <div for='select-date' class="datosgenerales">
+                                           Fecha de finalizacion
+                                           <sup class="validacion">*</sup>
+                                       </div>
+                                       <div lang="Fecha finalizacion" class="formulario">
+                                           <input name="fecha finalizacion" id="manual" type="date" label="fecha finalizacion" class="manual" value="">
+                                       </div>
+                                    </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+                   </div>
+                   <div class="botones">
+                       <button class="experiencia-cancelar" type="link" content="Cancelar">Cancelar</button>
+                       <button class="experiencia-guardar" content="Guardar">Guardar</button> 
+                   </div>                   
+               </div>
+           </div>
+        </div>
+    </form>    
+</body>
+</html>
