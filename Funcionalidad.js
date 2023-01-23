@@ -16,3 +16,11 @@ $(document).ready(function(){
 
 });
 
+jQuery($ => {
+	const $charNum = $('#charNum');
+  
+	$('#field').on('input', e => {
+	  let len = e.target.value.length;
+	  $charNum.text(1000 - len);
+	}).trigger('input');
+  });
